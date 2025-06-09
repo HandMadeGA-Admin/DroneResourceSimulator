@@ -1,0 +1,21 @@
+# Unity text files
+*.cs text diff=csharp
+*.shader text
+*.cginc text
+*.txt text
+*.json text
+*.xml text
+*.asmdef text
+
+# Binary files - treat as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.fbx binary
+*.prefab binary
+*.unity binary
+*.mat binary
+v
