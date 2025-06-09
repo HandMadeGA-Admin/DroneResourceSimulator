@@ -104,4 +104,15 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = Mathf.Clamp(value, 0f, 5f);
     }
+
+    public void QuitGame()
+    {
+        Debug.Log("Выход из игры...");
+        Application.Quit();
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
+    }
+
 }
